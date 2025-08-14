@@ -1,9 +1,9 @@
-# Task 6: Sales Trend Analysis Using Aggregations
+## Task 6: Sales Trend Analysis Using Aggregations
 
-## Objective
+### Objective
 Analyze **monthly revenue** and **order volume** from the `online_sales` dataset using SQL aggregation functions.
 
-## Dataset
+### Dataset
 **Table:** `online_sales`  
 
 **Columns:**
@@ -12,7 +12,7 @@ Analyze **monthly revenue** and **order volume** from the `online_sales` dataset
 - `amount` (REAL) – Order revenue amount  
 - `product_id` (INTEGER) – Product identifier  
 
-## SQL Logic
+### SQL Logic
 Following the given hints:
 
 1. **Extract month/year**  
@@ -20,7 +20,7 @@ Following the given hints:
    EXTRACT(MONTH FROM order_date)
    EXTRACT(YEAR FROM order_date)
 
-## Tools Used
+### Tools Used
 
 SQLite (in-memory database for demonstration)
 
